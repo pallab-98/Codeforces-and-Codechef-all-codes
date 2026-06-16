@@ -1,0 +1,38 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+
+    int caseTest;
+    cin >> caseTest;
+
+    while (caseTest--)
+    {
+        int Alice, Bob, Charlie;
+        cin >> Alice >> Bob >> Charlie;
+
+       /*  Alice = 400 / Alice;
+        Bob = 400 / Bob;
+        Charlie = 400 / Charlie; */
+
+        if (Alice < Bob)
+        {
+            if (Alice < Charlie)
+                cout << "ALICE\n";
+            else
+                cout << "CHARLIE\n";
+        }
+        else
+        {
+            if (Bob < Charlie)
+                cout << "BOB\n";
+            else
+                cout << "CHARLIE\n";
+        }
+    }
+
+    return 0;
+}

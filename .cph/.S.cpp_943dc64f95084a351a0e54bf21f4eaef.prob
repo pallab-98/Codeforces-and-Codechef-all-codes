@@ -1,0 +1,1 @@
+{"name":"Local: S","url":"d:\\CODES\\codeforces_codechef__All code\\S.cpp","tests":[{"id":1777646297483,"input":"4 2\n5 6","output":"32"},{"id":1777646311632,"input":"5 0\n0 2","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODES\\codeforces_codechef__All code\\S.cpp","group":"local","local":true}

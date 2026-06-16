@@ -1,0 +1,1 @@
+{"name":"Local: prime number 1 to n","url":"d:\\CODES\\codeforces_codechef__All code\\prime number 1 to n.cpp","tests":[{"id":1775404625303,"input":"10\n","output":"2 3 5 7\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODES\\codeforces_codechef__All code\\prime number 1 to n.cpp","group":"local","local":true}
