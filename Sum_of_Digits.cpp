@@ -2,24 +2,25 @@
 using namespace std;
 
 int main()
-{   
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    
-    int T;
-    if(!(cin>>T)||!(T>=1 && T<=1e3))
-    return 0;
+    cout.tie(nullptr);
 
-    while(T--)
+    int caseTest;
+    if (!(cin >> caseTest) || !(caseTest >= 1 && caseTest <= 1e3))
+        return 0;
+
+    while (caseTest--)
     {
         int N;
         cin >> N;
 
         int sum = 0;
 
-        while(N > 0)
+        while (N > 0)
         {
-            sum += N % 10; 
+            sum += N % 10;
             N /= 10;
         }
 
