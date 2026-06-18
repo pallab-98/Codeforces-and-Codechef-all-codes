@@ -14,15 +14,18 @@ int main()
 
     while (caseTest--)
     {
+        ios::sync_with_stdio(false);
+        cin.tie(nullptr);
+        cout.tie(nullptr);
+
         string str;
         cin >> str;
 
         int cnt = 0;
         for (int i = 0; i < 10; i++)
-        
+
             if (str[i] != target[i])
                 cnt++;
-        
 
         cout << cnt << endl;
     }

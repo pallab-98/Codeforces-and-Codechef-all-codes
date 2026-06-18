@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-    int t;
-    cin >> t;
-    while (t--)
+    int caseTest;
+    cin >> caseTest;
+    while (caseTest--)
     {
         int a, b, c;
         cin >> a >> b >> c;
@@ -14,4 +14,5 @@ int main()
         else
             cout << "NO" << endl;
     }
+    return 0;
 }
