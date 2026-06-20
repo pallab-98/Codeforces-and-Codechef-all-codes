@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
+int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
@@ -10,15 +9,14 @@ int main()
     int caseTest;
     cin >> caseTest;
 
-    while (caseTest--)
-    {
+    while (caseTest--) {
         long long n, m;
         cin >> n >> m;
 
         if (n * m <= n + m)
-            cout << "YES" << endl;
+            cout << "YES"<<endl;
         else
-            cout << "NO" << endl;
+            cout << "NO"<<endl;
     }
 
     return 0;
