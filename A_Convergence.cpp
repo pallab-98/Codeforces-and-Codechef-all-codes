@@ -4,29 +4,40 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    cout.tie(nullptr);
 
-    int sixseven;
-    cin >> sixseven;
+    int caseTest;
+    cin >> caseTest;
 
-    while (sixseven--) {
+    while (caseTest--) {
         int n;
         cin >> n;
 
-        map<long long, int> mp;
+        vector<long long> a(n);
+        for (int i = 0; i < n; i++) cin >> a[i];
 
-        for (int i = 0; i < n; i++) {
-            long long x;
-            cin >> x;
-            mp[x]++;
+        sort(a.begin(), a.end());
+
+        int ans = n;
+
+        int pref = 0;
+        int i = 0;
+
+        while (i < n) {
+            int j = i;
+            while (j < n && a[j] == a[i]) j++;
+
+            int cnt = j - i;
+            ans = min(ans, max(pref, n - pref - cnt));
+
+            pref += cnt;
+            if (j < n)
+                ans = min(ans, max(pref, n - pref));
+
+            i = j;
         }
 
-        int mx = 0;
-
-        for (auto &p : mp) {
-            mx = max(mx, p.second);
-        }
-
-        cout << n - mx << '\n';
+        cout << ans << "\n";
     }
 
     return 0;
