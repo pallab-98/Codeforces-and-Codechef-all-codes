@@ -1,36 +1,30 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
+int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    cout.tie(nullptr);
 
-    int casetest;
-    cin >> casetest;
+    int t;
+    cin >> t;
 
-    while (casetest--)
-    {
+    while (t--) {
         int n;
         cin >> n;
 
         vector<int> a(n), b(n);
 
-        for (int i = 0; i < n; i++)
-            cin >> a[i];
+        for (int i = 0; i < n; i++) cin >> a[i];
+        for (int i = 0; i < n; i++) cin >> b[i];
 
-        for (int i = 0; i < n; i++)
-            cin >> b[i];
+        int pos = 0, neg = 0;
 
-        long long ans = 0;
-
-        for (int i = 0; i < n; i++)
-        {
-            ans += abs(a[i] - b[i]);
+        for (int i = 0; i < n; i++) {
+            if (a[i] > b[i]) pos += (a[i] - b[i]);
+            else neg += (b[i] - a[i]);
         }
 
-        cout << ans << "\n";
+        cout << max(pos, neg) << "\n";
     }
 
     return 0;
