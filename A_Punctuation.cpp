@@ -11,9 +11,9 @@ int main()
     for (char c : s)
     {
         if (isalpha(c))
-        {
+
             ans += c;
-        }
+
         else if (c == '.' || c == ',' || c == '!' || c == '?')
         {
             while (!ans.empty() && ans.back() == ' ')
