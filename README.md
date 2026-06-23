@@ -24,7 +24,7 @@ Competitive Programmer | C/C++ Developer | Problem Solver
 
 ### CodeChef Profile
 
-![CodeChef](https://codechef-api.vercel.app/handle/pallab_98)
+[![CodeChef](https://img.shields.io/badge/CodeChef-Profile-brown?style=for-the-badge&logo=codechef)](https://www.codechef.com/users/pallab_98)
 
 ---
 
