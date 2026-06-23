@@ -12,6 +12,33 @@
 
 ---
 
+## 📊 Coding Dashboard
+
+### 📈 GitHub Stats
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=pallab-98&show_icons=true&theme=tokyonight)
+
+---
+
+### 🏆 Codeforces Profile
+
+![Codeforces](https://codeforces-readme-stats.vercel.app/api/card?username=pallab_98)
+
+---
+
+### 🍳 CodeChef Profile
+
+![CodeChef](https://codechef-api.vercel.app/handle/pallab_98)
+
+
+---
+
+### 💻 LeetCode Profile
+
+![LeetCode](https://leetcard.jacoblin.cool/pallab_98)
+
+---
+
 ## 🛠️ Languages
 
 <p align="left">
@@ -56,7 +83,8 @@ Each file contains solutions for different problems.
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=pallab-98&show_icons=true&theme=tokyonight)
 
----
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=pallab-98&theme=tokyonight)
+
 
 ## 🔥 GitHub Streak
 
