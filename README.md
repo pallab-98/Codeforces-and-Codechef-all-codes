@@ -1,45 +1,40 @@
-# 👋 Hi, I'm Pallab
+# Hi, I'm Pallab
 
-🚀 Competitive Programmer | C/C++ Developer | Problem Solver
-
----
-
-## 🧠 About Me
-- 🎯 Passionate about problem solving and algorithms  
-- 💻 Practicing competitive programming daily  
-- 🏆 Active in Codeforces & CodeChef contests  
-- 🔥 Focused on improving consistency and coding speed  
+Competitive Programmer | C/C++ Developer | Problem Solver
 
 ---
 
-## 📊 Coding Dashboard
-
-### 📈 GitHub Stats
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=pallab-98&show_icons=true&theme=tokyonight)
+## About Me
+- Passionate about problem solving and algorithms  
+- Practicing competitive programming daily  
+- Active in Codeforces & CodeChef contests  
+- Focused on improving consistency and coding speed  
 
 ---
 
-### 🏆 Codeforces Profile
+## Coding Dashboard
+
+---
+
+### Codeforces Profile
 
 ![Codeforces](https://codeforces-readme-stats.vercel.app/api/card?username=pallab_98)
 
 ---
 
-### 🍳 CodeChef Profile
+### CodeChef Profile
 
 ![CodeChef](https://codechef-api.vercel.app/handle/pallab_98)
 
-
 ---
 
-### 💻 LeetCode Profile
+### LeetCode Profile
 
 ![LeetCode](https://leetcard.jacoblin.cool/pallab_98)
 
 ---
 
-## 🛠️ Languages
+## Languages
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=c,cpp" />
@@ -47,13 +42,13 @@
 
 ---
 
-## 📂 Repository Overview
+## Repository Overview
 
 Each file contains solutions for different problems.
 
 ---
 
-## 🎯 Goals
+## Goals
 - Improve problem solving skills  
 - Learn advanced algorithms  
 - Prepare for contests and interviews  
@@ -61,14 +56,14 @@ Each file contains solutions for different problems.
 
 ---
 
-## 📊 Progress
-- Problems solved: Increasing daily 📈  
-- Active in competitive programming contests 🔥  
-- Total commits: Consistent coding practice 🚀  
+## Progress
+- Problems solved: Increasing daily  
+- Active in competitive programming contests  
+- Total commits: Consistent coding practice  
 
 ---
 
-## 🧠 Topics Covered
+## Topics Covered
 - Arrays  
 - Strings  
 - Math  
@@ -79,26 +74,13 @@ Each file contains solutions for different problems.
 
 ---
 
-## 📈 GitHub Stats
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=pallab-98&show_icons=true&theme=tokyonight)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=pallab-98&theme=tokyonight)
-
-
-## 🔥 GitHub Streak
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=pallab-98&theme=tokyonight)
-
----
-
-## 🔥 Note
+## Note
 All solutions are written by me for learning purposes.  
 Some solutions may not be the most optimized, but I continuously improve them.
 
 ---
 
-## 📌 Author
+## Author
 
-**Name:** Pallab  
-**GitHub:** https://github.com/pallab-98
+Name: Pallab  
+GitHub: https://github.com/pallab-98
