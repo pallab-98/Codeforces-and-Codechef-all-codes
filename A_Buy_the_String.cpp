@@ -1,12 +1,11 @@
-#include <iostream>
-#include <string>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int t;
-    cin >> t;
+    int caseTest;
+    cin >> caseTest;
 
-    while (t--) {
+    while (caseTest--) {
         int n, c0, c1, h;
         cin >> n >> c0 >> c1 >> h;
 
