@@ -22,15 +22,10 @@ int main()
         long long ans = 0;
 
         for (char ch : s)
-        {
             if (ch == '0')
-
                 ans += min(c0, h + c1);
-
             else
-
                 ans += min(c1, h + c0);
-        }
 
         cout << ans << endl;
     }
