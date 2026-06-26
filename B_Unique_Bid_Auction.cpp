@@ -1,22 +1,25 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int t;
-    cin >> t;
+    int caseTest;
+    cin >> caseTest;
 
-    while (t--) {
+    while (caseTest--)
+    {
         int n;
         cin >> n;
 
         vector<int> a(n + 1);
         vector<int> freq(n + 1, 0);
 
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++)
+        {
             cin >> a[i];
             freq[a[i]]++;
         }
@@ -24,15 +27,15 @@ int main() {
         int mn = INT_MAX;
         int ans = -1;
 
-        for (int i = 1; i <= n; i++) {
-            if (freq[a[i]] == 1 && a[i] < mn) {
+        for (int i = 1; i <= n; i++)
+        {
+            if (freq[a[i]] == 1 && a[i] < mn)
+            {
                 mn = a[i];
                 ans = i;
             }
         }
-
-        cout << ans << '\n';
+        cout << ans << endl;
     }
-
     return 0;
 }
