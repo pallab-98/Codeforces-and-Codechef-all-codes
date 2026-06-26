@@ -19,9 +19,9 @@ int main()
         int mx = max(x, y);
 
         if (x == y)
-            cout << 2 * mx << '\n';
+        cout << 2 * mx << endl;
         else
-            cout << 2 * mx - 1 << '\n';
+            cout << 2 * mx - 1 << endl;
     }
 
     return 0;
