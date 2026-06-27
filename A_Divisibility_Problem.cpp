@@ -13,7 +13,7 @@ int main() {
         long long a, b;
         cin >> a >> b;
 
-        cout << (b - a % b) % b << "\n";
+        cout << (b - a % b) % b <<endl;
     }
 
     return 0;
