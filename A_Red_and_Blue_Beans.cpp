@@ -19,7 +19,7 @@ int main() {
         ll mx = max(r, b);
 
         if (mx <= mn * (d + 1))
-            cout << "YES";
+            cout << "YES"<<endl;
         else
             cout << "NO\n";
     }
