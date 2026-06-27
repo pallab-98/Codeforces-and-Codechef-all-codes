@@ -11,7 +11,7 @@ int main() {
     int caseTest;
     cin >> caseTest;
 
-    while (t--) {
+    while (caseTest--) {
         ll p, a, b, c;
         cin >> p >> a >> b >> c;
 
