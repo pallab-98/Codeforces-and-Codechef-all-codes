@@ -3,7 +3,8 @@ using namespace std;
 
 using ll = long long;
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
@@ -11,7 +12,8 @@ int main() {
     int caseTest;
     cin >> caseTest;
 
-    while (caseTest--) {
+    while (caseTest--)
+    {
         ll r, b, d;
         cin >> r >> b >> d;
 
@@ -19,9 +21,9 @@ int main() {
         ll mx = max(r, b);
 
         if (mx <= mn * (d + 1))
-            cout << "YES"<<endl;
+            cout << "YES" << endl;
         else
-            cout << "NO"<<endl;
+            cout << "NO" << endl;
     }
 
     return 0;
