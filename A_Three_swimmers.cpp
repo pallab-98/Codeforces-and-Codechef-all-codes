@@ -19,7 +19,7 @@ int main() {
         ll wb = (b - p % b) % b;
         ll wc = (c - p % c) % c;
 
-        cout << min({wa, wb, wc}) << '\n';
+        cout << min({wa, wb, wc}) << endl;
     }
 
     return 0;
