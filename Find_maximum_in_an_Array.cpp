@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    ios::sync_with_stdio(false);
     int testCase;
     cin >> testCase;
     while (testCase--)
