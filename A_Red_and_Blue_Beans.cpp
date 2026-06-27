@@ -9,7 +9,7 @@ int main() {
     cout.tie(nullptr);
 
     int caseTest;
-    cin >> t;
+    cin >> caseTest;
 
     while (t--) {
         ll r, b, d;
