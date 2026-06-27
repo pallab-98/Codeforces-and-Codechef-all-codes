@@ -22,9 +22,7 @@ int main()
         for (int value : arr)
         {
             if (hight < value)
-            {
                 hight = value;
-            }
         }
         cout << hight << endl;
     }
