@@ -18,12 +18,12 @@ int main()
 
         if (half == 0 || a > total || b > total || c > total)
         {
-            cout << -1 << '\n';
+            cout << -1 << endl;
             continue;
         }
 
         if (c + half <= total)
-            cout << c + half << '\n';
+            cout << c + half << endl;
         else
             cout << c - half << '\n';
     }
