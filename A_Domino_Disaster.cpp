@@ -21,7 +21,7 @@ int main()
                 ch = 'U';
         }
 
-        cout << s << '\n';
+        cout << s << endl;
     }
     
 
