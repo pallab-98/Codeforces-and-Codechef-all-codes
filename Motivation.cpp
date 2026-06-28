@@ -19,8 +19,6 @@ int main() {
         for (int i = 0; i < n; i++) {
             long long s, r;
             cin >> s >> r;
-            
-            // Check if the movie fits in the hard disk
             if (s <= x) {
                 // Keep track of the highest rating seen so far
                 if (r > max_rating) {
