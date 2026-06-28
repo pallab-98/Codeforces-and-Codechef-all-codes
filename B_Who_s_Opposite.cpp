@@ -25,7 +25,7 @@ int main()
         if (c + half <= total)
             cout << c + half << endl;
         else
-            cout << c - half << '\n';
+            cout << c - half << endl;
     }
 
     return 0;
