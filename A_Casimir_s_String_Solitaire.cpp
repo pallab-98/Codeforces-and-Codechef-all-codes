@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
@@ -9,20 +10,25 @@ int main() {
     int caseTest;
     cin >> caseTest;
 
-    while (caseTest--) {
+    while (caseTest--)
+    {
         string str;
         cin >> str;
 
         int a = 0, b = 0, c = 0;
 
-        for (char ch : s) {
-            if (ch == 'A') a++;
-            else if (ch == 'B') b++;
-            else c++;
+        for (char ch : s)
+        {
+            if (ch == 'A')
+                a++;
+            else if (ch == 'B')
+                b++;
+            else
+                c++;
         }
 
         if (b == a + c)
-            cout << "YES";
+            cout << "YES" << endl;
         else
             cout << "NO\n";
     }
