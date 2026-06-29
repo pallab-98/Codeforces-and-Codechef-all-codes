@@ -13,7 +13,7 @@ int main()
         else if (a >= b && a > c)
             cout << "Too Late"<<endl;
         else
-            cout << "Too Early\n";
+            cout << "Too Early"<<endl;
     }
 
     return 0;
