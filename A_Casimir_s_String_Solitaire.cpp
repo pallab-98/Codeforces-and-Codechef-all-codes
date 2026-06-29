@@ -17,7 +17,7 @@ int main()
 
         int a = 0, b = 0, c = 0;
 
-        for (char ch : s)
+        for (char ch : str)
         {
             if (ch == 'A')
                 a++;
