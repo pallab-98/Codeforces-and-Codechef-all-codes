@@ -9,7 +9,7 @@ int main()
     {
         long long a;
         cin >> a;
-       cout<<(a+1)/2<<endl;
+        cout << (a + 1) / 2 << endl;
     }
 
     return 0;
