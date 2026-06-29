@@ -16,7 +16,7 @@ int main()
         if (s <= n)
             cout << s << endl;
         else
-            cout << (2 * n - s) << '\n';
+            cout << (2 * n - s) << endl;
     }
     return 0;
 }
