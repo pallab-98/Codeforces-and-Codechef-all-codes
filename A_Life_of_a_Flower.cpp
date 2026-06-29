@@ -41,7 +41,7 @@ int main()
         if (dead)
             cout << -1 << endl;
         else
-            cout << height << '\n';
+            cout << height << endl;
     }
     return 0;
 }
