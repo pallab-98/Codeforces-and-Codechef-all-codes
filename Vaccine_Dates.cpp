@@ -11,7 +11,7 @@ int main()
         if (a >= b && a < c)
             cout << "Take second dose now\n";
         else if (a >= b && a > c)
-            cout << "Too Late\n";
+            cout << "Too Late"<<endl;
         else
             cout << "Too Early\n";
     }
