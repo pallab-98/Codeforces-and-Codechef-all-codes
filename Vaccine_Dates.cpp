@@ -9,11 +9,11 @@ int main()
         int a, b, c;
         cin >> a >> b >> c;
         if (a >= b && a < c)
-            cout << "Take second dose now"<<endl;
+            cout << "Take second dose now" << endl;
         else if (a >= b && a > c)
-            cout << "Too Late"<<endl;
+            cout << "Too Late" << endl;
         else
-            cout << "Too Early"<<endl;
+            cout << "Too Early" << endl;
     }
 
     return 0;
