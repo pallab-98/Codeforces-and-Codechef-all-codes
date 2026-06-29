@@ -22,7 +22,7 @@ int main() {
         }
 
         if (b == a + c)
-            cout << "YES\n";
+            cout << "YES";
         else
             cout << "NO\n";
     }
