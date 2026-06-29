@@ -10,6 +10,7 @@ int main()
 
     int caseTest;
     cin >> caseTest;
+    
     while (caseTest--)
     {
         int n;
