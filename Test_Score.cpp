@@ -15,7 +15,7 @@ int main()
         cin >> N >> X >> Y;
         
         if (Y % X == 0 && Y / X <= N)
-            cout << "YES\n";
+            cout << "YES"<<endl;
         else
             cout << "NO\n";
     }
