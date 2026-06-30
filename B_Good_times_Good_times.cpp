@@ -22,7 +22,7 @@ int main() {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int t;
+    int caseTest;
     cin >> t;
 
     while (t--) {
