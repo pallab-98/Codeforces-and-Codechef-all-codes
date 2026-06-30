@@ -16,7 +16,7 @@ int main() {
         if (x == y)
             cout << "YES"<<endl;
         else if (y > 1 && x % y == 0)
-            cout << "YES\n";
+            cout << "YES"<<endl;
         else
             cout << "NO\n";
     }
