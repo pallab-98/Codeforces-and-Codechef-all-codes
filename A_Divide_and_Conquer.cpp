@@ -8,16 +8,14 @@ int main()
     cout.tie(nullptr);
 
     int caseTest;
-    cin >> caseTest;
+    cin >> t;
 
-    while (caseTest--)
+    while (t--)
     {
         int x, y;
         cin >> x >> y;
 
-        if (x == y)
-            cout << "YES" << endl;
-        else if (y > 1 && x % y == 0)
+        if (x % y == 0)
             cout << "YES" << endl;
         else
             cout << "NO" << endl;
