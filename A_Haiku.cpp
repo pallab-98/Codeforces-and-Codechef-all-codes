@@ -1,10 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int countVowel(string s) {
+int countVowel(string s)
+{
     int cnt = 0;
 
-    for (char ch : s) {
+    for (char ch : s)
+    {
         if (ch == 'a' || ch == 'e' || ch == 'i' ||
             ch == 'o' || ch == 'u')
             cnt++;
@@ -13,7 +15,8 @@ int countVowel(string s) {
     return cnt;
 }
 
-int main() {
+int main()
+{
     string s1, s2, s3;
 
     getline(cin, s1);
