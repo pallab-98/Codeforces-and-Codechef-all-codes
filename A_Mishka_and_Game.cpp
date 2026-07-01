@@ -23,7 +23,7 @@ int main()
         else if (m < c)
             chris++;
     }
-
+    
     if (mishka > chris)
         cout << "Mishka";
 
