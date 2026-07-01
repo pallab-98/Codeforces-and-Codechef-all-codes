@@ -29,10 +29,9 @@ int main()
 
         if (mx - mn <= K)
             cout << "Yes" << endl;
-            
+
         else
             cout << "No" << endl;
     }
-
     return 0;
 }
