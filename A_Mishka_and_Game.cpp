@@ -7,13 +7,12 @@ int main()
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-
-    int n;
-    cin >> n;
+    int caseTest;
+    cin >> caseTest;
 
     int mishka = 0, chris = 0;
 
-    while (n--)
+    while (caseTest--)
     {
         int m, c;
         cin >> m >> c;
