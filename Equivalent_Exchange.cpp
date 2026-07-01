@@ -6,7 +6,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
-    
+
     int caseTest;
     cin >> caseTest;
 
@@ -29,6 +29,7 @@ int main()
 
         if (mx - mn <= K)
             cout << "Yes" << endl;
+            
         else
             cout << "No" << endl;
     }
